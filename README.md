@@ -1,5 +1,5 @@
 # EllipseDetection
-Public datasets for ellipse detection usually have different formats, such as the rotation angle, some use radians, while some use angles. We sort out seven publicly most used datasets for easy use. Besides, we further build an industrial dataset built by a BFS-PGE-23S3M-C Point Grey camera. 
+Public datasets for ellipse detection usually have different formats, such as the rotation angle, some use radians, while some use angles. We sort out seven publicly most used datasets for easy use. Besides, we further build an industrial dataset by a BFS-PGE-23S3M-C Point Grey camera. 
 
 Two synthetic datasets:
 1. Occluded dataset. It contains 600 images, and each image has {4, 8, 12, 16, 20, 24} occluded ellipses. The original format is .mat which must be processed by MATLAB. We transform it to .jpg which is more easier for use.
